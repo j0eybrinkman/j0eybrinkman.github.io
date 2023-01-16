@@ -7,7 +7,10 @@
     font-size: .8rem;
 }
 
-
+.wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+}
 
 body {
     text-align: center;
@@ -34,7 +37,7 @@ header {
 
 h1 {
     padding-top: 1rem;
-    font-size: 4rem;
+    font-size: 3.4rem;
 }
 
 .sticky {
