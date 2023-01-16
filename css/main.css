@@ -1,0 +1,108 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.small-text {
+    font-size: .8rem;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    text-align: center;
+    background: url(../media/woodgrain_bg.jpg);
+    font-size: 1.2rem;
+    color:#ffffff;
+    font-family: sans-serif;
+}
+
+a, a::before {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* HEADER */
+header {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+h1 {
+    padding-top: 1rem;
+    font-size: 4rem;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.contact-info {
+    background-color: #000000;
+    padding: .5rem 0 .5rem 0;
+    font-size: 1.2rem;
+}
+
+.contact-info a {
+    padding: 0 .3rem 0 .3rem;
+}
+/* HEADER */
+
+/* MAIN */
+.wrapper {
+    background: hsla(0, 100%, 0%, .2);
+}
+
+/* FORM */
+
+form {
+    padding-top: 1rem;
+}
+.call-to-action {
+    text-align: center;
+}
+
+fieldset {
+    border: none;
+    width: 100%;
+}
+
+label, textarea, input {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+input[type="text"], input[type="tel"], input[type="email"], textarea {
+    margin-bottom: 1rem;
+    padding: .25rem;
+}
+
+input[type="submit"] {
+    width: 30%;
+    padding: .5rem;
+}
+
+/* FORM */
+/* MAIN */
+
+/* FOOTER */
+
+footer {
+    padding: 1rem;
+}
+
+.socials li {
+    display: inline;
+}
+
+/* FOOTER */
