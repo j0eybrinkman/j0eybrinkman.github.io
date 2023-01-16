@@ -37,7 +37,7 @@ header {
 
 h1 {
     padding-top: 1rem;
-    font-size: 3.4rem;
+    font-size: 3rem;
 }
 
 .sticky {
@@ -58,9 +58,6 @@ h1 {
 /* HEADER */
 
 /* MAIN */
-.wrapper {
-    background: hsla(0, 100%, 0%, .2);
-}
 
 /* FORM */
 
