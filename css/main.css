@@ -7,7 +7,7 @@
     font-size: .8rem;
 }
 
-html, body {
+html, body, .wrapper {
     height: 100%;
     width: 100%;
 }
