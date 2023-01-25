@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>(402)helpdesk | Home</title>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <h1 id="title"><span class="fourotwo bold">(402)</span><span class="happy">helpdesk</span></h1>
+            <p id="description">
+                <span class="happy fw">happy to help</span><span class="fourotwo bold"> (24/7)</span>
+            </p> 
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <main>
+            <form id="survey-form">
+            
+                <fieldset id="user-contact-info">
+                    <legend class="bold section-padding">how can we contact you?</legend>
+                    <div>
+                        <label for="name" id="name-label">name: </label>
+                        <input type="text" name="name" id="name" placeholder="full name" required>
+                    </div>
+                    <div>
+                        <label for="phone" id="phone-label" >phone: </label>
+                        <input type="tel" name="phone" id="phone" placeholder="(+1) xxx-xxxx" required>
+                    </div>
+                    <div>
+                        <label for="email" id="email-label" >email: </label>
+                        <input type="email" name="email" id="email" placeholder="person@company.com" required>
+                    </div>
+                </fieldset>
+
+                <fieldset id="user-security-assessment">
+                    <legend class="bold section-padding">secure your devices</legend>
+
+                    <label for="dropdown" class="block">do you use a password manager?</label>
+                    <select name="dropdown" id="dropdown" class="block" required>
+                        <option value="">click to choose</option>
+                        <option value="yes">yes</option>
+                        <option value="no">no</option>
+                    </select>
+
+                    <label for="number" id="number-label" class="block">how many devices do you own?</label>
+                    <input type="number" name="number" id="number" class="block" min=1 max=1000 value="10">
+
+                    <fieldset id="user-device-types">
+                        <legend class="bold">what kind of devices?</legend>
+                        <div class="container">
+                            <div class="check">
+                                <input type="checkbox" name="laptop-windows" id="laptop-windows" value="laptop-windows">
+                                <label for="laptop-windows">laptop (windows)</label>
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" name="laptop-linux" id="laptop-linux" value="laptop-linux">
+                                <label for="laptop-linux">laptop (linux)</label>
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" name="macbook" id="macbook" value="macbook">
+                                <label for="macbook">macbook</label>
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" name="chromebook" id="chromebook" value="chromebook">
+                                <label for="chromebook">chromebook</label>
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" name="desktop-windows" id="desktop-windows" value="desktop-windows">
+                                <label for="desktop-windows">desktop (windows)</label>
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" name="desktop-linux" id="desktop-linux" value="desktop-linux">
+                                <label for="desktop-linux">desktop (linux)</label>
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" name="imac" id="imac" value="imac">
+                                <label for="imac">imac</label>
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" name="iphone" id="iphone" value="iphone">
+                                <label for="iphone">iphone</label>
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" name="other-phone" id="other-phone" value="other-phone">
+                                <label for="other-phone">android phone</label>
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" name="android-phone" id="android-phone" value="android-phone">
+                                <label for="android-phone">other phone</label>
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" name="ipad" id="ipad" value="ipad">
+                                <label for="ipad">ipad</label>
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" name="android-tablet" id="android-tablet" value="android-tablet">
+                                <label for="android-tablet">android tablet</label>
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" name="other-tablet" id="other-tablet" value="other-tablet">
+                                <label for="other-tablet">other tablet</label>
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" name="apple-watch" id="apple-watch" value="apple-watch">
+                                <label for="apple-watch">apple watch</label>
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" name="samsung-watch" id="samsung-watch" value="samsung-watch">
+                                <label for="samsung-watch">samsung watch</label>
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" name="other-watch" id="other-watch" value="other-watch">
+                                <label for="other-watch">other watch</label>
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" name="roku" id="roku" value="roku">
+                                <label for="roku">roku</label>
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" name="firetv" id="firetv" value="firetv">
+                                <label for="firetv">amazon firetv</label>
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" name="appletv" id="appletv" value="appletv">
+                                <label for="appletv">apple tv</label>
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" name="other-smart-tv" id="other-smart-tv" value="other-smart-tv">
+                                <label for="other-smart-tv">other smart tv</label>
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" name="smart-lock" id="smart-lock" value="smart-lock">
+                                <label for="smart-lock">smart lock</label>
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" name="smart-thermostat" id="smart-thermostat" value="smart-thermostat">
+                                <label for="smart-thermostat">smart thermostat</label>
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" name="smart-camera" id="smart-camera" value="smart-camera">
+                                <label for="smart-camera">smart camera</label>
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" name="amazon-echo" id="amazon-echo" value="amazon-echo">
+                                <label for="amazon-echo">amazon echo</label>
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" name="google-home" id="google-home" value="google-home">
+                                <label for="google-home">google home</label>
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" name="vr-headset" id="vr-headset" value="vr-headset">
+                                <label for="vr-headset">vr/ar headset</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    
+                    <fieldset id="user-router-status">
+                        <legend id="user-router-legend" class="bold">do you own or rent your router/modem?</legend>
+                        <input type="radio" name="router-ownership-status" id="rent" value="rent" checked>
+                        <label for="rent">rent</label>
+                        
+                        <input type="radio" name="router-ownership-status" id="own" value="own">
+                        <label for="own">own</label>
+                    </fieldset>
+                </fieldset>
+
+                <fieldset id="user-about">
+                    <legend class="bold section-padding">tell us more about you!</legend>
+                    <textarea name="bio" id="bio" cols="30" rows="8" 
+                    placeholder="what do the members of your household use the internet for? are you interested in a private cloud or backing up photos? how happy are you with your household tech? have you ever been hacked? let us know how we can help you!" required></textarea>
+                </fieldset>
+
+                <button type="submit" id="submit" class="bold">send</button>
+            </form>
+        </main>
+    </div>
+</body>
+</html>
