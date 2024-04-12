@@ -1,9 +1,0 @@
----
-layout: post
-title:  "Emojis!!!"
-date: "2024-04-11 16:05:32 -0500"
-categories: jekyll emoji jemoji
----
-
-:smile: :laughing: :blush: :smiley: :relaxed: :smirk: :heart_eyes: :kissing_heart: :kissing_closed_eyes: :flushed: :relieved: :satisfied: :grin: :wink: :stuck_out_tongue_winking_eye: :stuck_out_tongue_closed_eyes: :grinning: :kissing:  :kissing_smiling_eyes: :stuck_out_tongue: :sleeping: :worried: :frowning: :anguished: :open_mouth: :grimacing: :confused: :hushed: :expressionless:
-
