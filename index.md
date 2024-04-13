@@ -8,4 +8,4 @@ layout: default
 
 ## Useful Tools For Building Jekyll Sites
 
-- [Markdown table generator](https://www.tablesgenerator.com/markdown_tables#){target="_blank"};
+- [Markdown table generator](https://www.tablesgenerator.com/markdown_tables#){:target="_blank"}
